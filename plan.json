@@ -1,323 +1,104 @@
 {
   "plan": "2023",
   "facultad": "Letras y Ciencias Humanas",
-  "escuela": "Lenguas, Traducci\u00f3n e Interpretaci\u00f3n",
+  "escuela": "Lenguas, Traducción e Interpretación",
   "ciclos": [
     {
       "numero": 1,
       "cursos": [
-        {
-          "codigo": "HSO101",
-          "nombre": "Lenguaje y Comunicaci\u00f3n",
-          "creditos": 4
-        },
-        {
-          "codigo": "HSO103",
-          "nombre": "Proceso Hist\u00f3rico Cultural del Per\u00fa",
-          "creditos": 3
-        },
-        {
-          "codigo": "HSO105",
-          "nombre": "Geograf\u00eda y Medio Ambiente",
-          "creditos": 3
-        },
-        {
-          "codigo": "HSO106",
-          "nombre": "\u00c9tica, Ciudadan\u00eda y Diversidad Cultural",
-          "creditos": 3
-        },
-        {
-          "codigo": "HSO107",
-          "nombre": "Ling\u00fc\u00edstica Aplicada a la Traducci\u00f3n",
-          "creditos": 3
-        },
-        {
-          "codigo": "HSO202",
-          "nombre": "Introducci\u00f3n a la Investigaci\u00f3n Cient\u00edfica",
-          "creditos": 4
-        }
+        { "codigo": "HSO101", "nombre": "Lenguaje y Comunicación", "creditos": 4 },
+        { "codigo": "HSO103", "nombre": "Proceso Histórico Cultural del Perú", "creditos": 3 },
+        { "codigo": "HSO105", "nombre": "Geografía y Medio Ambiente", "creditos": 3 },
+        { "codigo": "HSO106", "nombre": "Ética, Ciudadanía y Diversidad Cultural", "creditos": 3 },
+        { "codigo": "HSO107", "nombre": "Lingüística Aplicada a la Traducción", "creditos": 3 },
+        { "codigo": "HSO202", "nombre": "Introducción a la Investigación Científica", "creditos": 4 }
       ]
     },
     {
       "numero": 2,
       "cursos": [
-        {
-          "codigo": "HSO104",
-          "nombre": "Matem\u00e1tica Aplicada a las Ciencias Sociales y Humanas",
-          "creditos": 4
-        },
-        {
-          "codigo": "HSO204",
-          "nombre": "Realidad Nacional y Globalizaci\u00f3n",
-          "creditos": 3
-        },
-        {
-          "codigo": "HSO205",
-          "nombre": "Introducci\u00f3n a la Filosof\u00eda",
-          "creditos": 3
-        },
-        {
-          "codigo": "LHS001",
-          "nombre": "Redacci\u00f3n Acad\u00e9mica",
-          "creditos": 4
-        },
-        {
-          "codigo": "LHS002",
-          "nombre": "Arte, Literatura del Per\u00fa y Am\u00e9rica Latina",
-          "creditos": 3
-        },
-        {
-          "codigo": "LL2001",
-          "nombre": "Introducci\u00f3n a la Traducci\u00f3n",
-          "creditos": 3
-        }
+        { "codigo": "HSO104", "nombre": "Matemática Aplicada a las Ciencias Sociales y Humanas", "creditos": 4 },
+        { "codigo": "HSO204", "nombre": "Realidad Nacional y Globalización", "creditos": 3 },
+        { "codigo": "HSO205", "nombre": "Introducción a la Filosofía", "creditos": 3 },
+        { "codigo": "LHS001", "nombre": "Redacción Académica", "creditos": 4 },
+        { "codigo": "LHS002", "nombre": "Arte, Literatura del Perú y América Latina", "creditos": 3 },
+        { "codigo": "LL2001", "nombre": "Introducción a la Traducción", "creditos": 3 }
       ]
     },
     {
       "numero": 3,
       "cursos": [
-        {
-          "codigo": "LL3001",
-          "nombre": "Gram\u00e1tica Contrastiva Aplicada a la Traducci\u00f3n",
-          "creditos": 3,
-          "prerequisito": "HSO107"
-        },
-        {
-          "codigo": "LL3002",
-          "nombre": "Quechua I",
-          "creditos": 4
-        },
-        {
-          "codigo": "LL3009",
-          "nombre": "Franc\u00e9s I",
-          "creditos": 5
-        },
-        {
-          "codigo": "LL3004",
-          "nombre": "El Griego y el Lat\u00edn en las Traducciones",
-          "creditos": 3
-        },
-        {
-          "codigo": "LL3005",
-          "nombre": "Sem\u00e1ntica Aplicada a la Traducci\u00f3n I",
-          "creditos": 4,
-          "prerequisito": "HSO107"
-        },
-        {
-          "codigo": "LL3006",
-          "nombre": "Intercomprensi\u00f3n Ling\u00fc\u00edstica",
-          "creditos": 3
-        }
+        { "codigo": "LL3001", "nombre": "Gramática Contrastiva Aplicada a la Traducción", "creditos": 3, "prerequisito": "HSO107" },
+        { "codigo": "LL3002", "nombre": "Quechua I", "creditos": 4 },
+        { "codigo": "LL3009", "nombre": "Francés I", "creditos": 5 },
+        { "codigo": "LL3004", "nombre": "El Griego y el Latín en las Traducciones", "creditos": 3 },
+        { "codigo": "LL3005", "nombre": "Semántica Aplicada a la Traducción I", "creditos": 4, "prerequisito": "HSO107" },
+        { "codigo": "LL3006", "nombre": "Intercomprensión Lingüística", "creditos": 3 }
       ]
     },
     {
       "numero": 4,
       "cursos": [
-        {
-          "codigo": "LL4001",
-          "nombre": "Quechua II",
-          "creditos": 4,
-          "prerequisito": "LL3002"
-        },
-        {
-          "codigo": "LL4009",
-          "nombre": "Franc\u00e9s II",
-          "creditos": 5,
-          "prerequisito": "LL3009"
-        },
-        {
-          "codigo": "LL4003",
-          "nombre": "Taller de Traducci\u00f3n I",
-          "creditos": 4,
-          "prerequisito": "LL2001"
-        },
-        {
-          "codigo": "LL4004",
-          "nombre": "Traducci\u00f3n General e Interculturalidad",
-          "creditos": 4
-        },
-        {
-          "codigo": "LL4005",
-          "nombre": "Introducci\u00f3n a la Interpretaci\u00f3n",
-          "creditos": 3,
-          "prerequisito": "LL3006"
-        },
-        {
-          "codigo": "LL4006",
-          "nombre": "Sem\u00e1ntica Aplicada a la Traducci\u00f3n II",
-          "creditos": 3,
-          "prerequisito": "LL3005"
-        }
+        { "codigo": "LL4001", "nombre": "Quechua II", "creditos": 4, "prerequisito": "LL3002" },
+        { "codigo": "LL4009", "nombre": "Francés II", "creditos": 5, "prerequisito": "LL3009" },
+        { "codigo": "LL4003", "nombre": "Taller de Traducción I", "creditos": 4, "prerequisito": "LL2001" },
+        { "codigo": "LL4004", "nombre": "Traducción General e Interculturalidad", "creditos": 4 },
+        { "codigo": "LL4005", "nombre": "Introducción a la Interpretación", "creditos": 3, "prerequisito": "LL3006" },
+        { "codigo": "LL4006", "nombre": "Semántica Aplicada a la Traducción II", "creditos": 3, "prerequisito": "LL3005" }
       ]
     },
     {
       "numero": 5,
       "cursos": [
-        {
-          "codigo": "LL5001",
-          "nombre": "Quechua III",
-          "creditos": 4,
-          "prerequisito": "LL4001"
-        },
-        {
-          "codigo": "LL5008",
-          "nombre": "Franc\u00e9s III",
-          "creditos": 5,
-          "prerequisito": "LL4009"
-        },
-        {
-          "codigo": "LL5003",
-          "nombre": "Taller de Traducci\u00f3n II",
-          "creditos": 4,
-          "prerequisito": "LL4003"
-        },
-        {
-          "codigo": "LL5004",
-          "nombre": "Sem\u00e1ntica Aplicada a la Traducci\u00f3n III",
-          "creditos": 4,
-          "prerequisito": "LL4006"
-        },
-        {
-          "codigo": "LL5005",
-          "nombre": "Taller de Interpretaci\u00f3n I",
-          "creditos": 3,
-          "prerequisito": "LL4005"
-        }
+        { "codigo": "LL5001", "nombre": "Quechua III", "creditos": 4, "prerequisito": "LL4001" },
+        { "codigo": "LL5008", "nombre": "Francés III", "creditos": 5, "prerequisito": "LL4009" },
+        { "codigo": "LL5003", "nombre": "Taller de Traducción II", "creditos": 4, "prerequisito": "LL4003" },
+        { "codigo": "LL5004", "nombre": "Semántica Aplicada a la Traducción III", "creditos": 4, "prerequisito": "LL4006" },
+        { "codigo": "LL5005", "nombre": "Taller de Interpretación I", "creditos": 3, "prerequisito": "LL4005" }
       ]
     },
     {
       "numero": 6,
       "cursos": [
-        {
-          "codigo": "LL6001",
-          "nombre": "Quechua IV",
-          "creditos": 4,
-          "prerequisito": "LL5001"
-        },
-        {
-          "codigo": "LL6008",
-          "nombre": "Franc\u00e9s IV",
-          "creditos": 5,
-          "prerequisito": "LL5008"
-        },
-        {
-          "codigo": "LL6003",
-          "nombre": "Taller de Traducci\u00f3n III",
-          "creditos": 4,
-          "prerequisito": "LL5003"
-        },
-        {
-          "codigo": "LL6004",
-          "nombre": "Traducci\u00f3n Orientada a la Soluci\u00f3n de Conflictos",
-          "creditos": 4
-        },
-        {
-          "codigo": "LL6005",
-          "nombre": "Taller de Interpretaci\u00f3n II",
-          "creditos": 3,
-          "prerequisito": "LL5005"
-        }
+        { "codigo": "LL6001", "nombre": "Quechua IV", "creditos": 4, "prerequisito": "LL5001" },
+        { "codigo": "LL6008", "nombre": "Francés IV", "creditos": 5, "prerequisito": "LL5008" },
+        { "codigo": "LL6003", "nombre": "Taller de Traducción III", "creditos": 4, "prerequisito": "LL5003" },
+        { "codigo": "LL6004", "nombre": "Traducción Orientada a la Solución de Conflictos", "creditos": 4 },
+        { "codigo": "LL6005", "nombre": "Taller de Interpretación II", "creditos": 3, "prerequisito": "LL5005" }
       ]
     },
     {
       "numero": 7,
       "cursos": [
-        {
-          "codigo": "LL7001",
-          "nombre": "Quechua V",
-          "creditos": 4,
-          "prerequisito": "LL6001"
-        },
-        {
-          "codigo": "LL7008",
-          "nombre": "Franc\u00e9s V",
-          "creditos": 5,
-          "prerequisito": "LL6008"
-        },
-        {
-          "codigo": "LL7003",
-          "nombre": "Taller de Traducci\u00f3n IV",
-          "creditos": 4,
-          "prerequisito": "LL6003"
-        },
-        {
-          "codigo": "LL7004",
-          "nombre": "Herramientas Digitales Aplicadas a la Traducci\u00f3n",
-          "creditos": 4
-        },
-        {
-          "codigo": "LL7005",
-          "nombre": "Taller de Interpretaci\u00f3n III",
-          "creditos": 3,
-          "prerequisito": "LL6005"
-        }
+        { "codigo": "LL7001", "nombre": "Quechua V", "creditos": 4, "prerequisito": "LL6001" },
+        { "codigo": "LL7008", "nombre": "Francés V", "creditos": 5, "prerequisito": "LL6008" },
+        { "codigo": "LL7003", "nombre": "Taller de Traducción IV", "creditos": 4, "prerequisito": "LL6003" },
+        { "codigo": "LL7004", "nombre": "Herramientas Digitales Aplicadas a la Traducción", "creditos": 4 },
+        { "codigo": "LL7005", "nombre": "Taller de Interpretación III", "creditos": 3, "prerequisito": "LL6005" }
       ]
     },
     {
       "numero": 8,
       "cursos": [
-        {
-          "codigo": "LL8001",
-          "nombre": "Quechua VI",
-          "creditos": 4,
-          "prerequisito": "LL7001"
-        },
-        {
-          "codigo": "LL8009",
-          "nombre": "Franc\u00e9s VI",
-          "creditos": 5,
-          "prerequisito": "LL7008"
-        },
-        {
-          "codigo": "LL8002",
-          "nombre": "Traducci\u00f3n T\u00e9cnica I",
-          "creditos": 4,
-          "prerequisito": "LL7003"
-        },
-        {
-          "codigo": "LL8003",
-          "nombre": "Taller de Traducci\u00f3n V",
-          "creditos": 4,
-          "prerequisito": "LL7003"
-        },
-        {
-          "codigo": "LL8005",
-          "nombre": "Taller de Interpretaci\u00f3n IV",
-          "creditos": 4,
-          "prerequisito": "LL7005"
-        }
+        { "codigo": "LL8001", "nombre": "Quechua VI", "creditos": 4, "prerequisito": "LL7001" },
+        { "codigo": "LL8009", "nombre": "Francés VI", "creditos": 5, "prerequisito": "LL7008" },
+        { "codigo": "LL8002", "nombre": "Traducción Técnica I", "creditos": 4, "prerequisito": "LL7003" },
+        { "codigo": "LL8003", "nombre": "Taller de Traducción V", "creditos": 4, "prerequisito": "LL7003" },
+        { "codigo": "LL8005", "nombre": "Taller de Interpretación IV", "creditos": 4, "prerequisito": "LL7005" }
       ]
     },
     {
       "numero": 9,
       "cursos": [
-        {
-          "codigo": "LL9001",
-          "nombre": "Pr\u00e1cticas Preprofesionales I",
-          "creditos": 6
-        },
-        {
-          "codigo": "LL9002",
-          "nombre": "Seminario de Tesis I",
-          "creditos": 6
-        }
+        { "codigo": "LL9001", "nombre": "Prácticas Preprofesionales I", "creditos": 6 },
+        { "codigo": "LL9002", "nombre": "Seminario de Tesis I", "creditos": 6 }
       ]
     },
     {
       "numero": 10,
       "cursos": [
-        {
-          "codigo": "LL0001",
-          "nombre": "Pr\u00e1cticas Preprofesionales II",
-          "creditos": 6,
-          "prerequisito": "LL9001"
-        },
-        {
-          "codigo": "LL0002",
-          "nombre": "Seminario de Tesis II",
-          "creditos": 6,
-          "prerequisito": "LL9002"
-        }
+        { "codigo": "LL0001", "nombre": "Prácticas Preprofesionales II", "creditos": 6, "prerequisito": "LL9001" },
+        { "codigo": "LL0002", "nombre": "Seminario de Tesis II", "creditos": 6, "prerequisito": "LL9002" }
       ]
     }
   ]
