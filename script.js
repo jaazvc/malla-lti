@@ -9,7 +9,7 @@ fetch('plan.json')
     }
 
     function render() {
-      malla.innerHTML = ''; // Limpiar todo antes de volver a pintar
+      malla.innerHTML = ''; // Limpia antes de volver a pintar
 
       data.ciclos.forEach(ciclo => {
         const div = document.createElement('div');
@@ -40,7 +40,7 @@ fetch('plan.json')
               completados = completados.filter(c => c !== curso.codigo);
             }
             guardarProgreso();
-            render(); // Redibuja sin recargar la página
+            render(); // ⚡ Redibuja todo sin recargar
           };
 
           p.appendChild(input);
@@ -60,7 +60,7 @@ fetch('plan.json')
       });
     }
 
-    render(); // Pintar la primera vez
+    render(); // 🟢 Pinta la primera vez
   })
   .catch(error => {
     console.error('Error cargando plan:', error);
